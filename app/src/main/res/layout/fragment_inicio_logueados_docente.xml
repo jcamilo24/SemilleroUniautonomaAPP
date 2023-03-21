@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/texto_secundario"
+    tools:context=".view.inicio_logueados_docentes.inicio_logueados_docenteFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/subtitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/tu_semillero"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/azul_princpal"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listSeedbedsbyUserdocente"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/preview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/shimmer_fragment_home" />
+                    <include layout="@layout/shimmer_fragment_home" />
+                    <include layout="@layout/shimmer_fragment_home" />
+                    <include layout="@layout/shimmer_fragment_home" />
+                    <include layout="@layout/shimmer_fragment_home" />
+                    <include layout="@layout/shimmer_fragment_home" />
+                    <include layout="@layout/shimmer_fragment_home" />
+                    <include layout="@layout/shimmer_fragment_home" />
+                    <include layout="@layout/shimmer_fragment_home" />
+                    <include layout="@layout/shimmer_fragment_home" />
+
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

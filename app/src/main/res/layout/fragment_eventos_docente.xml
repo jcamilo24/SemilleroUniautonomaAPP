@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_letra"
+    tools:context=".view.inicio_logueados_estudiantes.eventosFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="340dp"
+                    android:padding="10dp"
+                    android:src="@drawable/red_colsi"/>
+                <Button
+                    android:id="@+id/evento_colsin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even_colsin"
+                    android:layout_margin="15dp"
+                    android:backgroundTint="@color/azul_secundario"
+                    android:textColor="@color/white"
+                    android:background="@drawable/estilo_texto"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="340dp"
+                    android:padding="10dp"
+                    android:src="@drawable/acofi"/>
+                <Button
+                    android:id="@+id/evento_acofi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even_acofi"
+                    android:layout_margin="15dp"
+                    android:backgroundTint="@color/azul_secundario"
+                    android:textColor="@color/white"
+                    android:background="@drawable/estilo_texto"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_login_docente_navigation"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/menu_start_session_docente">
+
+    <fragment
+        android:id="@+id/menu_start_session_docente"
+        android:name="com.example.semillerouniautonoma.view.inicio_logueados_docentes.inicio_logueados_docenteFragment"
+        android:label="@string/inicio_login_docente"
+        tools:layout="@layout/fragment_inicio_logueados_docente"/>
+
+    <fragment
+        android:id="@+id/nav_redes_docente_1"
+        android:name="com.example.semillerouniautonoma.view.inicio_logueados_docentes.solicitudes_Fragment"
+        android:label="@string/Solicitudes"
+        tools:layout="@layout/fragment_solicitudes"/>
+    <fragment
+        android:id="@+id/nav_redes_docente_2"
+        android:name="com.example.semillerouniautonoma.view.inicio_logueados_estudiantes.Proyectos_EstuFragment"
+        android:label="@string/Proyectos_nuevos"
+        tools:layout="@layout/fragment_estu_proyectos"/>
+    <fragment
+        android:id="@+id/nav_redes_docente_3"
+        android:name="com.example.semillerouniautonoma.view.inicio_logueados_estudiantes.Productos_EstuFragment"
+        android:label="@string/Productos"
+        tools:layout="@layout/fragment_estu_productos"/>
+    <fragment
+        android:id="@+id/nav_redes_docente_4"
+        android:name="com.example.semillerouniautonoma.view.publicaciones.PublicacionesInicioFragment"
+        android:label="@string/publicacioes"
+        tools:layout="@layout/fragment_publicacion_inicio"/>
+    <fragment
+        android:id="@+id/nav_redes_docente_5"
+        android:name="com.example.semillerouniautonoma.view.inicio_logueados_estudiantes.eventosFragment"
+        android:label="@string/Eventos"
+        tools:layout="@layout/fragment_eventos"/>
+    <fragment
+        android:id="@+id/nav_redes_docente_6"
+        android:name="com.example.semillerouniautonoma.view.inicio_logueados_docentes.redes_proyectoFragment"
+        android:label="@string/Redes_proyectos"
+        tools:layout="@layout/fragment_redes_proyecto"/>
+
+    <!-- Informacion Adicional -->
+    <fragment
+        android:id="@+id/nav_ayuda_login"
+        android:name="com.example.semillerouniautonoma.view.PreguntasFragment"
+        android:label="@string/ayuda"
+        tools:layout="@layout/fragment_preguntas"/>
+    <fragment
+        android:id="@+id/nav_copyright_login"
+        android:name="com.example.semillerouniautonoma.view.CopyRightFragment"
+        android:label="@string/copyright"
+        tools:layout="@layout/fragment_copy_right"/>
+
+</navigation>

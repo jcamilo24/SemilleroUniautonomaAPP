@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Semilleros Autonoma</string>
+    <string name="header_text_1">Semillero De Desarrollo</string>
+    <string name="derechos">Semillero De Desarrollo De Software</string>
+    <string name="name_lider">Nombre de Líder</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <!-- contacto lider -->
+    <string name="titulo_contacto_lider">Forma parte de un semillero YA!!!</string>
+    <string name="titulo_contacto_miembros">Contacta a tus compañeros!!!</string>
+    <string name="titulo_contacto_estudiantes">Contacta a tus estudiantes!!!</string>
+    <string name="titulo_contacto_uni">Se parte de la familia Uniautonoma!!!</string>
+    <string name="nombre_estudiante">Nombre del Estudiante:</string>
+    <string name="correo_estudiante">Correo del Estudiante:</string>
+    <string name="hintname">Nombre</string>
+    <string name="semestre_estudiante">Semestre del Estudiante:</string>
+    <string name="hintsemestre">Semestre</string>
+    <string name="carrera_estudiante">Programa del Estudiante:</string>
+    <string name="hintcarrera">Carrera</string>
+    <string name="correo_docente">Dirección:</string>
+    <string name="hintcorreo_docente">Correo</string>
+    <string name="Tema_correo">Tema:</string>
+    <string name="hinttema">Tema</string>
+    <string name="descripcion_correo">Descripción:</string>
+    <string name="hintdescripcion">Contenido</string>
+    <string name="enviar">Enviar</string>
+
+    <!--strings del menu de la App-->
+    <string name="item1">Información</string>
+    <string name="item2">Publicaciones</string>
+    <string name="item3">Contacto</string>
+    <string name="item4">Iniciar Sesión</string>
+    <string name="item5">Menu Opciones</string>
+    <string name="item6">Facultades</string>
+
+    <!-- Menu -->
+    <string name="titulo_splash">Semilleros de Investigación de la Uniautonoma del Cauca</string>
+    <string name="titulo_universidad">Corporación Universitaria Autonoma del Cauca</string>
+    <string name="titulo_semilleros">Semilleros Uniautonomos</string>
+    <string name="informacion_gen">Información General</string>
+    <string name="publicacioes">Publicaciones Semilleros</string>
+    <string name="contacto_lider_semilleros">Contactar Lider</string>
+    <string name="contacto_uni">Universidad</string>
+    <string name="direccion">Calle 5 No. 3–85 Popayán C PBX:8213000 - Fax:8214000  Codigo ICFES 2849</string>
+    <string name="titulo_infoDemas">Información Adicional</string>
+    <string name="ayuda"> Ayuda </string>
+    <string name="preguntas"> Preguntas Frecuentes </string>
+    <string name="normatividad"> Normatividad </string>
+    <string name="copyright"> CopyRight@ </string>
+    <string name="descrip_copyright">Derechos de autor Reservados por la Uniautonoma del Cauca 2021–2023.</string>
+
+    <string name="mas_info">+ INFO</string>
+    <string name="iniciar">Iniciar Sesión</string>
+    <string name="iniciar_google">Iniciar Sesión con Google</string>
+    <string name="registrar">Registrarse</string>
+    <string name="recuperar">¿Olvidaste tu Contraseña?</string>
+    <string name="hintcorreo">Correo del usuario</string>
+    <string name="hintcontraseña">Contraseña</string>
+    <string name="telefono_contacto">Telefono#</string>
+    <string name="correo_contacto">correo@</string>
+
+    <!-- Titulos -->
+    <string name="ingenieria">Ingenierías</string>
+    <string name="administracion">Derecho y Administración</string>
+
+    <!-- Menu login estudiantes -->
+    <string name="inicio_login_logueados">Inicio</string>
+    <string name="cerrar_login_logueados">Cerrar Sesión</string>
+    <string name="inicio_login_estudiante">Investigación Estudiante</string>
+    <string name="Solicitudes">Solicitudes</string>
+    <string name="Proyectos_nuevos">Proyectos</string>
+    <string name="Productos">Productos</string>
+    <string name="Contacto_lider">Contacto Lider</string>
+    <string name="noticias">Noticias</string>
+    <string name="Convocatorias">Convocatorias</string>
+    <string name="Eventos">Eventos</string>
+    <string name="tu_semillero">Tus Semilleros</string>
+
+    <!-- Menu login profesores -->
+    <string name="inicio_login_docente">Red de Investigacion Docente</string>
+    <string name="Contacto_miembros">Contacto Miembros</string>
+    <string name="Eventos_Docente">Eventos</string>
+    <string name="Redes_proyectos">Red de Proyectos</string>
+    <string name="tus_semillero">Tus Semilleros</string>
+    <string name="contactar_estudiantes">Mensaje Grupal</string>
+
+    <string name="op1">Registra tu Proyecto o haz parte de uno</string>
+    <string name="op2">Proyectos Novedosos Registrados</string>
+    <string name="op3">Contactar Lider del Proyecto</string>
+    <string name="op4">Convocatorias Externas</string>
+    <string name="op5">Eventos</string>
+    <string name="op6">Redes de Proyectos</string>
+
+    <string name="pro_nuevo">Registrar nuevo proyecto</string>
+    <string name="pro_curso">Proyectos en curso</string>
+
+    <string name="pn_caracteristicas">Caracteristicas de un proyecto innovador</string>
+    <string name="pn_curso">Proyectos novedosos en curso</string>
+
+    <string name="even_colsin">Eventos red colsi</string>
+    <string name="even_acofi">Eventos acofi</string>
+
+    <string name="convocatoria_externas">Psicólogo Organizacional Tipo: General,Fecha de cierre: Agosto 8, 2021. trabajo de manera virtual,debe presentar la hoja de vida y sus certificaciones laborales en un solo formato PDF.</string>
+    <string name="red_colsin">La RedCOLSI es pionera en el desarrollo de procesos de investigación formativa a gran escala en Colombia, desde el año 1998 hemos venido convocando de manera masiva principalmente a estudiantes de educación superior en encuentros departamentales, nacionales e internacionales de semilleros de investigación.</string>
+
+    <!-- ***************************************************************************************************** -->
+    <!-- titulos semilleros COMPLETOS facultad EDUCACION -->
+    <string name="titulo_educacion_6">Semillero de Investigacion Autonoma en Movimiento AUKINE (programa de Entrenamiento Deportivo)</string>
+    <string name="titulo_educacion_7">Semillero de Neurocognicion, Educacion y Creatividad</string>
+    <string name="titulo_educacion_8">Semillero de Fundamentación Abierta al Conocimiento (programa de Licenciatura en Educación para la Primera Infancia)</string>
+    <string name="titulo_educacion_9">Semillero de Investigación DHASA (Desarrollo de Habilidades Socio afectivas)</string>
+    <string name="titulo_educacion_10">Semillero De Investigación Cuerpo, Recreación Educación y Deporte (SICRED)</string>
+    <!-- ***************************************************************************************************** -->
+
+    <!-- ***************************************************************************************************** -->
+    <!-- titulos semilleros COMPLETOS facultad INGENIERIA -->
+    <string name="titulo_ingenieria_6">Semillero de Investigación en Robótica (programa de Ingeniería Electrónica).</string>
+    <string name="titulo_ingenieria_7">Semillero de Investigación en Sistemas Embarcados de Control y Automatización (Ingeniería Electrónica).</string>
+    <string name="titulo_ingenieria_8">Semillero de Investigación en Desarrollo de Software (Ingeniería Software y Computación).</string>
+    <string name="titulo_ingenieria_9">Semillero de Investigación en Gestión Energética (Ingeniería Electrónica).</string>
+    <string name="titulo_ingenieria_10">Semillero de Investigación en Minería de Datos (Ingeniería Software y Computación).</string>
+    <!-- ***************************************************************************************************** -->
+
+    <!-- ***************************************************************************************************** -->
+    <!-- titulos semilleros COMPLETOS facultad DERECHO -->
+    <string name="titulo_derecho_7">Semillero de Investigación en Derecho Constitucional y Construcción de paz (Deccopaz)</string>
+    <string name="titulo_derecho_8">Semillero de Investigación en Derechos Humanos, Derecho Internacional Humanitario y Justicia Transicional (programa de Derecho)</string>
+    <string name="titulo_derecho_9">Semillero de Investigación en Derechos Humanos y Género</string>
+    <string name="titulo_derecho_10">Semillero de Investigación en Estudios Jurídicos Contemporáneros</string>
+    <string name="titulo_derecho_11">Semillero de Investigación en Derecho Sustancial y Procesal en Familia</string>
+    <string name="titulo_derecho_12">Semillero de Investigación en Derecho Procesal</string>
+    <!-- ***************************************************************************************************** -->
+
+    <!-- ***************************************************************************************************** -->
+    <!-- titulos semilleros COMPLETOS facultad AMBIENTAL -->
+    <string name="titulo_ambiental_5">Semillero de Gestión Ambiental</string>
+    <string name="titulo_ambiental_6">Semillero de Manejo Integral del Recurso Hídrico</string>
+    <string name="titulo_ambiental_7">Semillero de Minería Responsable</string>
+    <string name="titulo_ambiental_8">Semillero de Investigación en Gestión Energética</string>
+    <!-- ***************************************************************************************************** -->
+
+    <!-- ***************************************************************************************************** -->
+    <!-- titulos semilleros COMPLETOS facultad ADMINISTRACION -->
+    <string name="titulo_administracion_4">Semillero de investigación Desarrollo Sostenible</string>
+    <string name="titulo_administracion_5">Semillero de Investigación Autónomo Contable SIAC</string>
+    <string name="titulo_administracion_6">Semillero de Investigación en Finanzas</string>
+    <!-- ***************************************************************************************************** -->
+
+
+    <!-- preguntas Frecuentes -->
+    <string name="pregunta1">¿La aplicación es gratis?</string>
+    <string name="respuesta1">Sí.La aplicación de SemilleroUniAutonoma puede descargarse e instalarse sin coste alguno,Sin embargo, sólo los estudiantes, profesores y directivos tienen acceso a todos los contenidos</string>
+    <string name="pregunta2">¿Tengo que ser estudiante para utilizar la App?</string>
+    <string name="respuesta2">No es necesario, sin ser estudiante de la universidad podras conocer nuestros semilleros de investigacion y motivarte a unirtenos</string>
+    <string name="pregunta3">¿En qué dispositivos funciona?</string>
+    <string name="respuesta3">En solo dispositivos a partir de Android 4.3</string>
+    <string name="pregunta4">¿Qué hago si tengo problemas con la aplicación?</string>
+    <string name="respuesta4">Si la aplicación se cierra inesperadamente o tienes cualquier otro problema, comprueba en primer lugar que tienes instalada la última versión. Si el problema persiste, puedes ponerte en contacto con nosotros a través del teléfono oooooooooo o del correo uni@uniautonoma.edu.co.</string>
+    <string name="pregunta5">¿Hay una resolucion sobre los semilleros?</string>
+    <string name="respuesta5">Si, esta la resolucion ***, puedes descargarla a continuacion.</string>
+
+    <string name="desc_edu">La Facultad de Educación fue ratificada y adoptada mediante Resolución No. 006 de 2004, expedida por el Consejo Superior. Es una unidad académica-administrativa que propende por la formación de profesionales competentes para satisfacer necesidades sociales.8309000 ext. 118 faced@uniautonoma.edu.co</string>
+    <string name="desc_ing">La Facultad de Ingeniería forma profesionales con cultura de liderazgo, espíritu emprendedor y vocación investigativa, competentes para la aplicación y desarrollo de tecnologías en diferentes campos. La FAI centrará sus esfuerzos en la formación de líderes en creación, desarrollo, mantenimiento y gestión de soluciones tecnológicas y de ingeniería que contribuyan al desarrollo de la región.</string>
+    <string name="desc_der">La Facultad propicia la formación de profesionales integrales altamente competitivos y responde a las necesidades sociales y políticas de la región y del país. Forma cultura de paz en la región y profesionales con vocación investigativa para que enfrenten retos y necesidades actuales y futuros, con capacidad de transformación del medio económico, social y cultural en el cual se desempeñan.</string>
+    <string name="desc_amb">La Facultad de Ciencias Ambientales y de Desarrollo Sostenible fue creada mediante resolución No. 0116 del 20 de noviembre de 2007, para la formación profesionales capaces de impulsar el crecimiento económico sostenible con el objeto de mantener la base natural como factor para el desarrollo del país, aumentar la producción y oferta de bienes y servicios ambientalmente sanos y sostenibilidad de la producción regional.</string>
+    <string name="desc_adm">La Facultad de Ciencias Administrativas, Contables y Económicas FACACE, fue creada mediante Resolución No. 005 de 2004 expedida por el Consejo Superior de la Corporación Universitaria Autónoma del Cauca. Es responsable de administrar los programas de pregrado y posgrado, los departamentos académicos, programas de investigación, extensión y proyección social propias de la Facultad.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+
+    <string name="correoInstitucional">Correo Electrónico</string>
+
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="default_web_client" translatable="false">807295375618-k89vjvg03175pshnmsln2eqmtbl3f0id.apps.googleusercontent.com</string>
+    <string name="title_activity_map">MapsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

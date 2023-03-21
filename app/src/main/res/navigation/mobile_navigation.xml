@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.semillerouniautonoma.view.InformacionFragment"
+        android:label="@string/informacion_gen"
+        tools:layout="@layout/fragment_informacion" />
+    <fragment
+        android:id="@+id/nav_publicaciones"
+        android:name="com.example.semillerouniautonoma.view.publicaciones.PublicacionesInicioFragment"
+        android:label="@string/publicacioes"
+        tools:layout="@layout/fragment_publicacion_inicio"/>
+    <fragment
+        android:id="@+id/nav_eventos"
+        android:name="com.example.semillerouniautonoma.view.inicio_logueados_estudiantes.eventosFragment"
+        android:label="@string/Eventos"
+        tools:layout="@layout/fragment_eventos"/>
+
+    <!-- fragmentos para semilleros -->
+    <fragment
+        android:id="@+id/nav_semillero_1"
+        android:name="com.example.semillerouniautonoma.view.semilleros.IngenieriaInicioFragment"
+        android:label="@string/titulo_semilleros"
+        tools:layout="@layout/fragment_ingenieria_inicio" />
+    <fragment
+        android:id="@+id/nav_semillero_2"
+        android:name="com.example.semillerouniautonoma.view.semilleros.Dere_Soci_AdminInicioFragment"
+        android:label="@string/titulo_semilleros"
+        tools:layout="@layout/fragment_dere_soci_admin_inicio" />
+
+    <!-- Informacion Adicional -->
+    <fragment
+        android:id="@+id/nav_preguntas"
+        android:name="com.example.semillerouniautonoma.view.PreguntasFragment"
+        android:label="@string/preguntas"
+        tools:layout="@layout/fragment_preguntas"/>
+    <fragment
+        android:id="@+id/nav_normatividad"
+        android:name="com.example.semillerouniautonoma.view.NormatividadFragment"
+        android:label="@string/normatividad"
+        tools:layout="@layout/fragment_normatividad"/>
+    <fragment
+        android:id="@+id/nav_contacto_uni"
+        android:name="com.example.semillerouniautonoma.view.ContactoFragment"
+        android:label="@string/contacto_uni"
+        tools:layout="@layout/fragment_contacto_uni"/>
+    <fragment
+        android:id="@+id/nav_copyright"
+        android:name="com.example.semillerouniautonoma.view.CopyRightFragment"
+        android:label="@string/copyright"
+        tools:layout="@layout/fragment_copy_right"/>
+</navigation>

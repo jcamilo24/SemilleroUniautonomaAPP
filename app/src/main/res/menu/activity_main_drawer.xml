@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/item5"/>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/titulo_inicio"
+            android:title="@string/item1">
+            <!-- "file" submenu -->
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/informacion_gene"
+                    android:title="@string/informacion_gen"
+                    />
+                <item
+                    android:id="@+id/nav_publicaciones"
+                    android:icon="@drawable/ic_facultad"
+                    android:title="@string/publicacioes" />
+                <item
+                    android:id="@+id/nav_eventos"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="@string/Eventos" />
+            </menu>
+        </item>
+        <item android:id="@+id/titulo_inicio_semilleros"
+            android:title="@string/item6">
+            <!-- "file" submenu -->
+            <menu>
+                <item
+                    android:id="@+id/nav_semillero_1"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="@string/ingenieria"/>
+                <item
+                    android:id="@+id/nav_semillero_2"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="@string/administracion"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/titulo_ayuda"
+            android:title="@string/ayuda">
+            <menu>
+                <item
+                    android:id="@+id/nav_preguntas"
+                    android:icon="@drawable/ic_help"
+                    android:title="@string/preguntas" >
+                </item>
+                <item
+                    android:id="@+id/nav_normatividad"
+                    android:icon="@drawable/ic_help"
+                    android:title="@string/normatividad" >
+                </item>
+            </menu>
+        </item>
+        <item android:id="@+id/titulo_info"
+            android:title="@string/titulo_infoDemas">
+        <!-- "file" submenu -->
+            <menu>
+                <item
+                    android:id="@+id/nav_contacto_uni"
+                    android:icon="@drawable/ic_contact"
+                    android:title="@string/contacto_uni"/>
+                <item
+                    android:id="@+id/nav_copyright"
+                    android:icon="@drawable/ic_baseline_copyright_24"
+                    android:title="@string/copyright"/>
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/semillero_educacion"
+    tools:context=".view.inicio_logueados_estudiantes.Detalle_proyecto_Activity"
+    android:background="@color/texto_secundario">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo_titulo"
+                android:backgroundTint="@color/azul_secundario"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/imagen_anterior"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:rotation="182"
+                    android:layout_gravity="left"
+                    app:srcCompat="@drawable/ic_baseline_double_arrow_24" />
+                <TextView
+                    android:id="@+id/proyecto_titulo"
+                    android:layout_width="360dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/titulo_educacion_6"
+                    android:textColor="@color/texto_secundario"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+                <!--<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="240dp"
+                        android:layout_height="160dp"
+                        android:orientation="vertical">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/image_proyecto"
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp"/>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Inicio:"
+                        android:textColor="@color/azul_terceario"
+                        android:fontFamily="sans-serif"
+                        android:textSize="19dp"
+                        android:textStyle="bold"
+                        android:padding="10dp"/>
+                    <TextView
+                        android:id="@+id/fecha_inicio_project_detalle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="fecha"
+                        android:textColor="@color/azul_terceario"
+                        android:fontFamily="sans-serif"
+                        android:textSize="19dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Fin:"
+                        android:textColor="@color/azul_terceario"
+                        android:fontFamily="sans-serif"
+                        android:textSize="19dp"
+                        android:textStyle="bold"
+                        android:padding="10dp"/>
+                    <TextView
+                        android:id="@+id/fecha_fin_project_detalle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="fecha"
+                        android:textColor="@color/azul_terceario"
+                        android:fontFamily="sans-serif"
+                        android:textSize="19dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Estado:"
+                        android:textColor="@color/azul_terceario"
+                        android:fontFamily="sans-serif"
+                        android:textSize="19dp"
+                        android:textStyle="bold"
+                        android:padding="10dp"/>
+                    <TextView
+                        android:id="@+id/estado_proyecto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="nombre del lider"
+                        android:textColor="@color/azul_terceario"
+                        android:fontFamily="sans-serif"
+                        android:textSize="18dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/descripcion_proyecto"
+                    android:layout_width="370dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/estilo_texto"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/azul_secundario"
+                    android:text="@string/desc_edu"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:padding="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center">
+                </TextView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/listproductosbyIDproject"
+                    android:layout_width="390dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"/>
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <include layout="@layout/shimmer_fragment_home" />
+                        <include layout="@layout/shimmer_fragment_home" />
+                        <include layout="@layout/shimmer_fragment_home" />
+                        <include layout="@layout/shimmer_fragment_home" />
+                        <include layout="@layout/shimmer_fragment_home" />
+                        <include layout="@layout/shimmer_fragment_home" />
+                        <include layout="@layout/shimmer_fragment_home" />
+                        <include layout="@layout/shimmer_fragment_home" />
+                        <include layout="@layout/shimmer_fragment_home" />
+                        <include layout="@layout/shimmer_fragment_home" />
+
+                    </LinearLayout>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

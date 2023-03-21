@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "807295375618",
+    "firebase_url": "https://psemillero-27145-default-rtdb.firebaseio.com",
+    "project_id": "psemillero-27145",
+    "storage_bucket": "psemillero-27145.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807295375618:android:8f5cc48c95710253618a1b",
+        "android_client_info": {
+          "package_name": "com.example.semillerouniautonoma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807295375618-k89vjvg03175pshnmsln2eqmtbl3f0id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDt5ycVO8tV4HpmCWx4zB6LjQuf_GU5UA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807295375618-k89vjvg03175pshnmsln2eqmtbl3f0id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
